@@ -1,0 +1,32 @@
+.bottomBar {
+    width: 100%;
+    height: 60px;
+    background-color: #ABB4BB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Josefin Sans", sans-serif;
+    color: whitesmoke;
+}
+
+.motto{
+    display: flex;
+    flex: 3;
+    justify-content: center;
+}
+
+.author{
+    display: flex;
+    flex: 6;
+    justify-content: center;
+}
+
+.thanks{
+    display: flex;
+    flex: 3;
+    justify-content: center;
+}
+
+.easterEgg:hover {
+    color: #666;
+}

@@ -1,0 +1,132 @@
+.singlePost {
+  flex: 9;
+}
+
+.singlePostWrapper {
+  margin: 50px 70px 60px 70px;
+  display: flex;
+  flex-direction: column;
+  min-height: 1200px;
+  min-width: 500px;
+}
+
+.singlePostImg {
+  width: 100%;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.singlePostTitle {
+  text-align: center;
+  margin: 10px;
+  margin-top: 30px;
+  font-family: "Lora", sans-serif;
+  font-size: 28px;
+}
+
+.singlePostTitleInput {
+  text-align: center;
+  margin: 10px;
+  margin-top: 30px;
+  font-family: "Lora", sans-serif;
+  font-size: 28px;
+  border: none;
+  color: #666;
+  border-bottom: 2px solid lightgray;
+}
+
+.singlePostTitleInput:focus {
+  outline: none;
+}
+
+.singlePostEdit {
+  float: right;
+  font-size: 18px;
+}
+
+.singlePostIcon {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.singlePostIcon:first-child {
+  color: rgb(109, 11, 109);
+}
+
+.singlePostIcon:last-child {
+  color: darkred;
+}
+
+.singlePostInfo {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  color: #555;
+  font-family: "Valera Round", sans-serif;
+}
+
+.singlePostCat {
+  margin-right: 5px;
+}
+
+.singlePostDesc {
+  color: #666;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.singlePostDesc::first-letter {
+  margin-left: 1rem;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.singlePostDescInput {
+  color: #666;
+  font-size: 18px;
+  line-height: 25px;
+  border: 2px dashed lightgray;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: "Valera Round", sans-serif;
+  min-height: 400px;
+}
+
+.singlePostDescInput:focus{
+    outline: none;
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-between;
+}
+
+.singleCancelButton{
+  border: none;
+  background-color: darkred;
+  color: white;
+  font-family: 'Josefin', sans-serif;
+  font-size: 15px;
+  width: 80px;
+  text-align: center;
+  margin-top: 30px;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.singlePostButton{
+  border: none;
+  background-color: rgb(8, 111, 111);
+  color: white;
+  font-family: 'Josefin', sans-serif;
+  font-size: 15px;
+  width: 80px;
+  text-align: center;
+  margin-top: 30px;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}

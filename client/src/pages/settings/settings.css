@@ -1,0 +1,254 @@
+.settings {
+  display: flex;
+  overflow: scroll;
+}
+
+.settings::-webkit-scrollbar {
+  display: none;
+}
+
+.settingsWrapper {
+  display: flex;
+  flex: 9;
+  margin-top: 50px;
+  margin-bottom: 80px;
+  justify-content: space-between;
+}
+
+.settingsLeftWrapper {
+  display: flex;
+  flex: 5;
+  /* background-color: lightgray; */
+  justify-content: center;
+  padding-left: 50px;
+  padding-right: 25px;
+}
+
+.settingsUpdateWrapper {
+  min-width: 340px;
+  max-width: 500px;
+  background-color: #fdfbfb;
+  padding: 50px;
+  padding-top: 80px;
+  border-radius: 15px;
+  box-shadow: 0 0 8px 1px#d5d5d5;
+}
+
+.settingsRightWrapper {
+  display: flex;
+  flex: 5;
+  flex-direction: column;
+  /* background-color: antiquewhite; */
+  justify-content: space-between;
+  padding-left: 25px;
+  padding-right: 50px;
+}
+
+.settingsTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Valera Round", sans-serif;
+}
+
+.settingsUpdateTitle {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: rgb(8, 111, 111);
+  font-family: "Valera Round", sans-serif;
+}
+
+.settingsForm {
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+}
+
+.settingsInput {
+  background-color: #fdfbfb;
+}
+
+.settingsForm > label {
+  font-size: 20px;
+  margin-top: 20px;
+  color: #666;
+  font-family: "Josefin", sans-serif;
+  font-size: 18px;
+}
+
+.settingsForm > input {
+  margin: 10px 0;
+  color: grey;
+  font-size: 14px;
+  height: 25px;
+  border: none;
+  border-bottom: 2px solid lightgrey;
+}
+
+.settingsSubmit {
+  width: 100px;
+  align-self: left;
+  margin-top: 50px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(8, 111, 111);
+  padding: 10px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Valera Round", sans-serif;
+  transition: 0.3s all;
+}
+
+.settingsSubmit:hover {
+  box-shadow: 0 0 8px 1px#afaeae;
+}
+
+.settingsForm > input:focus {
+  outline: none;
+}
+
+.settingsUpdateError {
+  margin-left: 0;
+  margin-top: 10px;
+  font-family: "Josefin", sans-serif;
+  font-size: 15px;
+  color: darkred;
+}
+
+.settingsPictureWrapper {
+  background-color: #fdfbfb;
+  padding: 50px;
+  padding-top: 80px;
+  border-radius: 15px;
+  box-shadow: 0 0 8px 1px#d5d5d5;
+  min-width: 350px;
+  max-width: 500px;
+  min-height: 400px;
+  max-height: 500px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.settingsAvatarTitle {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: rgb(8, 111, 111);
+  font-family: "Valera Round", sans-serif;
+}
+
+.settingsPP {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  flex-direction: column;
+}
+
+.settingsInputImg {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+  transition: 0.7s;
+}
+
+.settingsInputImg:hover{
+  box-shadow: 0 0 20px 1px#cdcdcd;
+}
+
+/* .settingsPPIcon {
+  width: 20px;
+  height: 20px;
+  color: rgb(8, 111, 111);
+  background-color: white;
+  border-style: solid;
+  border-radius: 50%;
+  border-color: rgb(8, 111, 111);
+  border-width: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  cursor: pointer;
+} */
+
+.settingsAvatarText {
+  margin-top: 15px;
+  font-size: 15px;
+  font-family: "Valera Round", sans-serif;
+  color: #666;
+}
+
+.settingsAvatarSubmit {
+  width: 100px;
+  align-self: left;
+  margin-top: 50px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(8, 111, 111);
+  padding: 10px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Valera Round", sans-serif;
+  transition: 0.3s all;
+}
+
+.settingsAvatarSubmit:hover {
+  box-shadow: 0 0 8px 1px#afaeae;
+}
+
+.settingsDeleteWrapper {
+  background-color: #fdfbfb;
+  padding: 50px;
+  border-radius: 15px;
+  box-shadow: 0 0 8px 1px#d5d5d5;
+  min-width: 350px;
+  max-width: 500px;
+  min-height: 160px;
+  max-height: 200px;
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.settingsDeleteTitle {
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: darkred;
+  font-family: "Valera Round", sans-serif;
+}
+
+.settingsDeleteText{
+  margin-top: 15px;
+  font-size: 18px;
+  font-family: "Valera Round", sans-serif;
+  color: #666;
+}
+
+.settingsDeleteButton{
+  width: 100px;
+  align-self: left;
+  margin-top: 50px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: darkred;
+  padding: 10px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Valera Round", sans-serif;
+  transition: 0.3s all;
+}
+
+.settingsDeleteButton:hover{
+  box-shadow: 0 0 8px 1px#afaeae;
+}

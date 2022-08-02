@@ -1,0 +1,13 @@
+.home {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainPageWrapper {
+  display: flex;
+  overflow: scroll;
+}
+
+.mainPageWrapper::-webkit-scrollbar {
+  display: none;
+}

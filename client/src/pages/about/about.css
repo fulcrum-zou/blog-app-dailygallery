@@ -1,0 +1,205 @@
+.about {
+  display: flex;
+  overflow: scroll;
+}
+
+.about::-webkit-scrollbar {
+  display: none;
+}
+
+.aboutWrapper {
+  display: flex;
+  flex: 9;
+  margin-top: 50px;
+  margin-bottom: 80px;
+  justify-content: space-between;
+}
+
+.aboutLeftWrapper {
+  display: flex;
+  flex: 5;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 25px;
+  /* background-color: antiquewhite; */
+  align-items: flex-end;
+}
+
+.aboutPictureWrapper {
+  background-color: #fdfbfb;
+  padding: 50px;
+  padding-bottom: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 8px 1px#d5d5d5;
+  width: 400px;
+  /* min-width: 350px;
+  max-width: 400px; */
+  min-height: 300px;
+  max-height: 500px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+.aboutPicture {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.aboutTitle {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: rgb(8, 111, 111);
+  font-family: "Valera Round", sans-serif;
+}
+
+.aboutPictureText {
+  margin-bottom: 15px;
+  font-size: 15px;
+  font-family: "Valera Round", sans-serif;
+  color: #666;
+}
+
+.aboutInputImg {
+  width: 250px;
+  height: 250px;
+  border-radius: 15px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: 0.7s;
+}
+
+.aboutInputImg:hover {
+  box-shadow: 0 0 20px 1px#cdcdcd;
+}
+
+.aboutSubmit {
+  width: 100px;
+  min-width: 100px;
+  max-width: 100px;
+  align-self: left;
+  margin-left: 20px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(8, 111, 111);
+  padding: 10px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Valera Round", sans-serif;
+  transition: 0.3s all;
+}
+
+.aboutPictureSubmit:hover {
+  box-shadow: 0 0 8px 1px#afaeae;
+}
+
+.aboutDescWrapper {
+  background-color: #fdfbfb;
+  padding: 50px;
+  border-radius: 15px;
+  box-shadow: 0 0 8px 1px#d5d5d5;
+  width: 400px;
+  /* min-width: 350px;
+  max-width: 400px; */
+  min-height: 150px;
+  max-height: 200px;
+  margin-top: 25px;
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+}
+
+.aboutDescForm {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.aboutDescEdit {
+  font-size: 15px;
+  border: solid 1px #d5d5d5;
+  border-radius: 10px;
+  padding: 10px;
+  width: 250px;
+  min-width: 250px;
+  max-width: 250px;
+  height: 150px;
+  min-height: 150px;
+  max-height: 150px;
+  background-color: #fdfbfb;
+}
+
+.aboutDescEdit:focus {
+  outline: none;
+}
+
+.aboutRightWrapper {
+  display: flex;
+  flex: 5;
+  justify-content: center;
+  padding-left: 25px;
+  padding-right: 50px;
+  /* background-color: aliceblue; */
+}
+
+.aboutLinkWrapper {
+  min-width: 300px;
+  max-width: 400px;
+  background-color: #fdfbfb;
+  padding: 50px;
+  border-radius: 15px;
+  box-shadow: 0 0 8px 1px#d5d5d5;
+}
+
+.aboutLinkTitle {
+  margin-bottom: 50px;
+}
+
+.aboutLinkForm {
+  display: flex;
+  flex-direction: column;
+  min-width: 200px;
+}
+
+.aboutIcon {
+  font-size: 25px;
+  color: #666;
+}
+
+.aboutInput {
+  background-color: #fdfbfb;
+  margin-bottom: 25px;
+  color: grey;
+  font-size: 14px;
+  height: 25px;
+  border: none;
+  border-bottom: 2px solid lightgrey;
+}
+
+.aboutInput:focus{
+    outline: none;
+}
+
+.aboutIconText {
+  font-size: 15px;
+  margin-left: 10px;
+  color: #666;
+  font-family: "Josefin", sans-serif;
+  font-size: 18px;
+}
+
+.aboutLinkSubmit {
+  align-self: flex-end;
+  margin-top: 20px;
+}

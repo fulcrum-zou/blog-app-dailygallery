@@ -1,0 +1,14 @@
+.single{
+    display: flex;
+    flex-direction: column;
+}
+
+.mainSingleWrapper{
+    display: flex;
+    overflow: scroll;
+}
+
+.mainSingleWrapper::-webkit-scrollbar {
+    display: none;
+  }
+  

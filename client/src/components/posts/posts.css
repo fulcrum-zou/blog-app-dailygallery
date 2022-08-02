@@ -1,0 +1,15 @@
+.postsWrapper {
+  display: flex;
+  flex: 9;
+  margin: 50px 30px 80px 30px;
+  justify-content: center;
+}
+
+.posts {
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 80px;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  align-content: center;
+}
